@@ -45,6 +45,15 @@
 
 ```git clone <ssh link>```
 
+```git fetch origin master``` after fetching do ```git merge origin/master```
+
+```git pull origin master``` pull is actually 2 commands in one. 
+
+```git rebase master``` rebase copy commits of one branch to another
+
+-> cherry pick
+```git cherry pick <hash_of_pick>```
+create a copy of a commit onto our own branch
 
 
 
