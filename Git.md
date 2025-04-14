@@ -51,9 +51,26 @@
 
 ```git rebase master``` rebase copy commits of one branch to another
 
+
 -> cherry pick
 ```git cherry pick <hash_of_pick>```
 create a copy of a commit onto our own branch
+
+```git revert <hash>``` undoing commit changes
+or
+```git reset --soft HEAD~1``` / ```git reset --hard HEAD~1```
+soft reset saves the commit changes while hard reset discards the commit chnages.
+
+
+```git stash```
+```git stash pop ```
+```git stash list``` shows all the previous stashes made.
+
+-> Git Reflog: 
+-> used to undo hard  reset changes means it will bring back the data.
+```git reflog```  
+```git reset --hard <hash>```
+
 
 
 
